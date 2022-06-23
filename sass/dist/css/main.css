@@ -22,4 +22,9 @@ body {
 }
 .main .main__paragraph:hover {
   color: pink;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */
